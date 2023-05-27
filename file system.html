@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>File Management System</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <style>body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #ebdfdf;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  </style>
+  <h1>File Management System</h1>
+
+  <input type="file" id="fileInput">
+  <button onclick="uploadFile()">Upload</button>
+
+  <ul id="fileList">
+    <!-- File list will be populated dynamically -->
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
